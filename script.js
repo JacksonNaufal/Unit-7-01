@@ -12,8 +12,6 @@ function button () {
   // choose random number between 0 and 1, but add 6 + 1 so no zeros
   // compare random numbers
   if (userGuess >= randomnumber) {
-    document.getElementById('para').innerHTML =
-    'Good Job!'
-
+    document.getElementById('para').innerHTML = 'Good Job!'
   }
 }
