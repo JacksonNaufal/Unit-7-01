@@ -4,7 +4,6 @@ let randomnumber = 0
 
 let userGuess = 0
 
-
 function button () {
   userGuess = document.getElementById('input').value
   userGuess = parseInt(userGuess)
@@ -17,7 +16,4 @@ function button () {
     'Good Job!'
 
   }
-
-
-
 }
